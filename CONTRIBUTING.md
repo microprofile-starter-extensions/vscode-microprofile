@@ -5,6 +5,7 @@ Do you want to contribute to this project? Here is what you can do:
 * [Create or fix an issue](https://github.com/microprofile-starter-ide-extensions/vscode-microprofile/issues)
 * Join us on [Gitter](https://gitter.im/eclipse/microprofile-starter) to discuss this project
 * Fork the repository, make changes, Sign-off your commit and then do a pull request
+* Don't forget to include License header in new files
 
 ## Sign-off, Developer's Certificate of Origin
 *(Adopted from kernel.org)*
@@ -13,6 +14,8 @@ The sign-off is a simple line at the end of the explanation for the
 patch, which certifies that you wrote it or otherwise have the right to
 pass it on as an open-source patch. The rules are pretty simple: if you
 can certify the below:
+
+---
 
 By making a contribution to this project, I certify that:
 
@@ -37,8 +40,30 @@ By making a contribution to this project, I certify that:
     maintained indefinitely and may be redistributed consistent with
     this project or the open source license(s) involved.
 
+---
+
 then you just add a line saying:
 
 ```
     Signed-off-by: Random J Developer <random@developer.example.org>
+```
+
+## License header
+
+Source code files should include License header:
+
+```
+   Copyright (c) 2019 Contributors to MicroProfile Starter Extensions
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 ```
